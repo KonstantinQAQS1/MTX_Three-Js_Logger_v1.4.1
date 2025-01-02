@@ -272,7 +272,7 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyL') {
-                    logger && logger.setAttribute('loggerVersion', 'Three-JS - 1.4.1');
+                    logger && logger.setAttribute('loggerVersion', 'Three-JS - 1.4.1 - 3');
 
                 }
             });
@@ -335,7 +335,7 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyS') {
-                    logger && logger.logEvent('testKeydown', 'Press Key S');
+                    logger && logger.logEvent('testKeydown', 'Press Key S 3');
                 }
             });
             window.addEventListener('keydown', (e) => {
@@ -362,7 +362,7 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyB') {
-                    logger && logger.logEvent('eventString', ' Event value with space');
+                    logger && logger.logEvent('eventString', ' Event value with space 3');
                 }
             });
 
@@ -380,7 +380,7 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'Numpad1') {
-                    logger && logger.setAttribute('attributeNumber', 1);
+                    logger && logger.setAttribute('attributeNumber', 11);
                 }
             });
 
@@ -447,7 +447,7 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyV') {
-                    logger && logger.logState('stateString', 'Test String Value');
+                    logger && logger.logState('stateString', 'Test String Value 3');
                     //logger && logger.logState('stateBool', false);
                     //logger && logger.logState('stateNumber', 23);
 
@@ -687,8 +687,8 @@
 
                     // Attribute
                     logger.setAttribute("attributeBool", false);
-                    logger.setAttribute("branch", "Main 2");
-                    logger.setAttribute("loggerSender", "SQS 2");
+                    logger.setAttribute("branch", "Main 3");
+                    logger.setAttribute("loggerSender", "SQS 3");
 
                     // logger.logState('stateNumber', 0);
                     // logger.logEvent('eventString', ' Event value with space');
