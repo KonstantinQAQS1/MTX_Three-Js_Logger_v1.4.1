@@ -335,7 +335,7 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyS') {
-                    logger && logger.logEvent('testKeydown', 'Press Key S');
+                    logger && logger.logEvent('testKeydown', 'Press Key S - NDB');
                 }
             });
             window.addEventListener('keydown', (e) => {
@@ -362,7 +362,7 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyB') {
-                    logger && logger.logEvent('eventString', ' Event value with space');
+                    logger && logger.logEvent('eventString', ' Event value with space  - NDB');
                 }
             });
 
@@ -447,7 +447,7 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyV') {
-                    logger && logger.logState('stateString', 'Test String Value');
+                    logger && logger.logState('stateString', 'Test String Value  - NDB');
                     //logger && logger.logState('stateBool', false);
                     //logger && logger.logState('stateNumber', 23);
 
@@ -686,9 +686,9 @@
                     // =======  Set attribute / Log Event / State imediatelly after session.start event ======
 
                     // Attribute
-                    logger.setAttribute("attributeBool", true);
-                    logger.setAttribute("branch", "Main");
-                    logger.setAttribute("loggerSender", "SQS");
+                    logger.setAttribute("attributeBool", false);
+                    logger.setAttribute("branch", "Main  - NDB");
+                    logger.setAttribute("loggerSender", "SQS  - NDB");
 
                     // logger.logState('stateNumber', 0);
                     // logger.logEvent('eventString', ' Event value with space');
