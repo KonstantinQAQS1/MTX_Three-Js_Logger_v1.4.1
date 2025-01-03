@@ -335,7 +335,7 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyS') {
-                    logger && logger.logEvent('testKeydown', 'Press Key S - NDB');
+                    logger && logger.logEvent('testKeydown', 'Press Key S');
                 }
             });
             window.addEventListener('keydown', (e) => {
@@ -362,7 +362,7 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyB') {
-                    logger && logger.logEvent('eventString', ' Event value with space  - NDB');
+                    logger && logger.logEvent('eventString', ' Event value with space');
                 }
             });
 
@@ -447,7 +447,7 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyV') {
-                    logger && logger.logState('stateString', 'Test String Value  - NDB');
+                    logger && logger.logState('stateString', 'Test String Value');
                     //logger && logger.logState('stateBool', false);
                     //logger && logger.logState('stateNumber', 23);
 
@@ -687,8 +687,8 @@
 
                     // Attribute
                     logger.setAttribute("attributeBool", false);
-                    logger.setAttribute("branch", "Main  - NDB");
-                    logger.setAttribute("loggerSender", "SQS  - NDB");
+                    logger.setAttribute("branch", "Main");
+                    logger.setAttribute("loggerSender", "SQS");
 
                     // logger.logState('stateNumber', 0);
                     // logger.logEvent('eventString', ' Event value with space');
