@@ -314,28 +314,28 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyW') {
-                    logger && logger.logEvent('testKeydown', 'Press Key W');
+                    logger && logger.logEvent('testKeydown', 'W');
                 }
             });
 
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyA') {
-                    logger && logger.logEvent('testKeydown', 'Press Key A');
+                    logger && logger.logEvent('testKeydown', 'A');
                 }
             });
 
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyD') {
-                    logger && logger.logEvent('testKeydown', 'Press Key D');
+                    logger && logger.logEvent('testKeydown', 'D');
                 }
             });
 
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyS') {
-                    logger && logger.logEvent('testKeydown', 'Press Key S');
+                    logger && logger.logEvent('testKeydown', 'S');
                 }
             });
             window.addEventListener('keydown', (e) => {
@@ -686,9 +686,10 @@
                     // =======  Set attribute / Log Event / State imediatelly after session.start event ======
 
                     // Attribute
-                    logger.setAttribute("attributeBool", false);
-                    logger.setAttribute("branch", "Main");
-                    logger.setAttribute("loggerSender", "SQS");
+                    logger && logger.setAttribute('loggerVersion', 'Three-JS - 1.4.1-1');
+                    logger && logger.setAttribute('attributeBool', false);
+                    logger && logger.setAttribute('branch', 'Main-1');
+                    logger && logger.setAttribute('loggerSender', 'SQS');
 
                     // logger.logState('stateNumber', 0);
                     // logger.logEvent('eventString', ' Event value with space');
