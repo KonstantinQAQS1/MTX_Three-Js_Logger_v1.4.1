@@ -314,28 +314,28 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyW') {
-                    logger && logger.logEvent('testKeydown', 'Press Key W');
+                    logger && logger.logEvent('testKeydown', 'W');
                 }
             });
 
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyA') {
-                    logger && logger.logEvent('testKeydown', 'Press Key A');
+                    logger && logger.logEvent('testKeydown', 'A');
                 }
             });
 
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyD') {
-                    logger && logger.logEvent('testKeydown', 'Press Key D');
+                    logger && logger.logEvent('testKeydown', 'D');
                 }
             });
 
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyS') {
-                    logger && logger.logEvent('testKeydown', 'Press Key S');
+                    logger && logger.logEvent('testKeydown', 'S');
                 }
             });
             window.addEventListener('keydown', (e) => {
@@ -362,7 +362,7 @@
             window.addEventListener('keydown', (e) => {
                 //console.log(e);
                 if (e.code == 'KeyB') {
-                    logger && logger.logEvent('eventString', ' Event value with space');
+                    logger && logger.logEvent('eventString', ' Event value with space - 1');
                 }
             });
 
@@ -686,9 +686,9 @@
                     // =======  Set attribute / Log Event / State imediatelly after session.start event ======
 
                     // Attribute
-                    logger.setAttribute("attributeBool", false);
-                    logger.setAttribute("branch", "Main 2");
-                    logger.setAttribute("loggerSender", "SQS 2");
+                    // logger.setAttribute("attributeBool", false);
+                    // logger.setAttribute("branch", "Main 2");
+                    // logger.setAttribute("loggerSender", "SQS 2");
 
                     // logger.logState('stateNumber', 0);
                     // logger.logEvent('eventString', ' Event value with space');
