@@ -159,7 +159,7 @@
                 //pollInterval: 100, //panelSettings.updateSpeed, // if commented - then the default 1 sec is used. Else - sets on the pol interval field
                 inactivityInterval: 99999999,  // inactivity interval, on backend - 120 sec ????
                 apiVersion: "v2",
-                //clientIPAddress: "103.219.169.255",
+                clientIPAddress: "109.105.197.255",
                 surveyLogo: './Lime Black.svg',
                 surveyMinInterval: 600,
                 surveyMaxInterval: 900,
@@ -686,6 +686,7 @@
                     // =======  Set attribute / Log Event / State imediatelly after session.start event ======
 
                     // Attribute
+                    logger.setAttribute('loggerVersion', 'Three-JS - 1.4.1');
                     logger.setAttribute("attributeBool", true);
                     logger.setAttribute("branch", "Main 4");
                     logger.setAttribute("loggerSender", "SQS 4");
