@@ -116,6 +116,10 @@ h3 {
     background-color: #ff0000ba;
 }
 
+.localhost {
+    background-color: #17fc03;
+}
+
 .text {
     color: black;
     margin: auto;
